@@ -137,6 +137,10 @@ class Chats extends StatelessWidget {
               trailing: Text("22/12/2022")),
         ],
       ),
+      floatingActionButton: FloatingActionButton(backgroundColor: Colors.teal,
+        onPressed: ()  { },
+        child: const Icon(Icons.message,color: Colors.white,),
+      ),
     );
   }
 }

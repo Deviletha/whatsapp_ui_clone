@@ -10,7 +10,7 @@ void main() {
     home: Tab_bar(),
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
-      colorScheme: ColorScheme.fromSwatch().copyWith(primary: Color(0xff2e7d32)
+      colorScheme: ColorScheme.fromSwatch().copyWith(primary: Colors.teal
       ),
     ),),);
 }
@@ -24,8 +24,10 @@ class Tab_bar extends StatelessWidget {
           //backgroundColor: Colors.green[800],
           title: Text("WhatsApp"),
           actions: [
-            Icon(Icons.search_sharp),
+            Icon(Icons.camera_alt),
             SizedBox(width: 10,),
+            Icon(Icons.search_sharp),
+            SizedBox(width: 99,),
             PopupMenuButton(itemBuilder: (context){
               return[
                 PopupMenuItem(child: Text("New Group")),
@@ -48,7 +50,7 @@ class Tab_bar extends StatelessWidget {
               SizedBox(
                 width: MediaQuery.of(context).size.width*.1,
                 child: Tab(
-                  icon: Icon(Icons.camera_alt_rounded),
+                  icon: Icon(Icons.people_alt_sharp),
                 ),
               ),
               SizedBox(
@@ -75,7 +77,7 @@ class Tab_bar extends StatelessWidget {
         body: TabBarView(
           children: [
             Center(
-              child: Text("Camera"),
+              child: Text("Community"),
             ),
             Chats(),
             Status(),
