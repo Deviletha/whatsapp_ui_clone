@@ -1,16 +1,7 @@
 # whatsapp_ui_clone
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Output
+![WtsApp chats](https://github.com/Deviletha/whatsapp_ui_clone/assets/118511923/335a566f-8bff-4dc1-a231-42287c9a5943)
+![WtsApp settings](https://github.com/Deviletha/whatsapp_ui_clone/assets/118511923/7f918cbc-6e43-4e8b-bddf-435ca67d1cbf)
+![WtsApp status](https://github.com/Deviletha/whatsapp_ui_clone/assets/118511923/8352a874-5a88-4a5e-80d2-4f440255a47d)
+![WtsApp call](https://github.com/Deviletha/whatsapp_ui_clone/assets/118511923/f2d85fcb-f678-4d6f-8a38-99300367e98a)
